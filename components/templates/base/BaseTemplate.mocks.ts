@@ -1,9 +1,9 @@
-import { ICatCard } from './CatCard';
+import { IBaseTemplate } from './BaseTemplate';
 
-const base: ICatCard = {
+const base: IBaseTemplate = {
   sampleTextProp: 'Hello world!',
 };
 
-export const mockCatCardProps = {
+export const mockBaseTemplateProps = {
   base,
 };
