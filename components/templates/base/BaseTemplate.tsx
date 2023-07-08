@@ -1,11 +1,11 @@
-import styles from './BaseTemplate.module.css';
+import styles from './CatCard.module.css';
 
-export interface IBaseTemplate {
+export interface ICatCard {
   sampleTextProp: string;
 }
 
-const BaseTemplate: React.FC<IBaseTemplate> = ({ sampleTextProp }) => {
+const CatCard: React.FC<ICatCard> = ({ sampleTextProp }) => {
   return <div className={styles.container}>{sampleTextProp}</div>;
 };
 
-export default BaseTemplate;
+export default CatCard;
