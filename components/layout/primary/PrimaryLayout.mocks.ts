@@ -7,3 +7,5 @@ const base: IPrimaryLayout = {
 export const mockPrimaryLayoutProps = {
   base,
 };
+
+//export { IPrimaryLayout };
