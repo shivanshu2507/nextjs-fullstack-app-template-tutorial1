@@ -4,6 +4,6 @@ const base: IBaseTemplate = {
   sampleTextProp: 'Hello world!',
 };
 
-export const mockBaseTemplateProps = {
+export const mocksBaseTemplateProps = {
   base,
 };
